@@ -1,10 +1,19 @@
-
 .DS_Store
-# Output
 *
+# Work directories
 !/Chapters
+!/CoverPagepic
+!/Signature
+!/Pictures
+# Tex files
 !*.tex
 !*.cls
+!*.cfg
+# Images
 !*.eps
+!*.jpg
+!*.png
+!*.bmp
+!*.pdf
 # 
 !.gitignore
