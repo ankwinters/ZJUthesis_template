@@ -1,0 +1,10 @@
+
+.DS_Store
+# Output
+*
+!/Chapters
+!*.tex
+!*.cls
+!*.eps
+# 
+!.gitignore
