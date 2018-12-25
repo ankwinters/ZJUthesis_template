@@ -2,13 +2,13 @@
 
 感谢[shuwei1204](https://github.com/shuwei1204/ZJUthesis)及各路前辈制作的原始版本。
 
-由于macOS上的原生中文字体的与Windows并不相同，原始模板在macOS下会出现字体无法渲染等问题,
-本模版在前面基础上作了部分改进，支持macOS。测试环境为MacTeX-2018，系统为macOS 10.14。
+由于macOS上的原生中文字体的与Windows并不相同，原始模板在macOS下会出现字体无法渲染等问题。
+本模板在前人基础上作了部分改进，支持macOS。测试环境为MacTeX-2018，系统为macOS 10.14。
 
 ## 安装步骤
 
 1. 首先安装[MacTex](https://www.tug.org/mactex/mactex-download.html)
-2. （可选）安装[TexStudio](https://sourceforge.net/projects/texstudio/)，注意在Preferences里把默认编译器改为`XeLatex`。`
+2. （可选）安装[TexStudio](https://sourceforge.net/projects/texstudio/)，注意在Preferences里把默认编译器改为`XeLatex`。
 2. 克隆仓库，然后用`xelatex`编译`thesis.tex`。
 ```
 git clone https://github.com/ckpwinters/ZJUthesis_template
