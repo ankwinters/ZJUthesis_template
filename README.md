@@ -11,7 +11,7 @@
 2. （可选）安装[TexStudio](https://sourceforge.net/projects/texstudio/)，注意在Preferences里把默认编译器改为`XeLatex`。`
 2. 克隆仓库，然后用`xelatex`编译`thesis.tex`。
 ```
-git clone 
+git clone https://github.com/ckpwinters/ZJUthesis_template
 
 cd ZJUthesis_template/
 
@@ -21,7 +21,7 @@ xelatex thesis.tex
 
 ## 附录：Windows与macOS对部分中文字体的定义
 下表只罗列了四种常见字体，主要出现在报纸和文献中。
-可以参照TexLive中的`ctex-fontset-windowsnew.def`与`ctex-fontset-mac.def`。`
+可以参照TexLive中的`ctex-fontset-windowsnew.def`与`ctex-fontset-mac.def`的设定。
 
 字体 | Windows(7+) | macOS(10.11+)
 ---|---|---
