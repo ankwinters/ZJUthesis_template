@@ -343,7 +343,6 @@ includehead, includefoot]{geometry}
   {
     \linespread{1.3}
     \begin{center}
-
       % 先插入中文论文题目
       {\bfseries\fangsong\zihao{-2}\ZJUunderline[340pt]{\ZJU@value@title}\\
       \ifx\ZJU@value@titletl\undefined
@@ -366,28 +365,28 @@ includehead, includefoot]{geometry}
       \vspace{8mm}
 
       \begin{tabular}{lc}
-     {\bfseries\songti\zihao{3} 论文作者签名：} &
-      \ZJUunderline[120pt]{}
-      %  如果使用电子签名请取消注释以下几行
-	  %      \ifpdf
-	  %	      \ZJUunderline[120pt]{\includegraphics[width=100pt,height=45pt]{./Signature/sign_ch.pdf}}
-	  %      \else
-	  %          \ZJUunderline[120pt]{\includegraphics[width=100pt,height=45pt]{./Signature/sign_ch.eps}}
-	  %      \fi
-      {\bfseries\songti\zihao{3}\textcolor{white}{。}}\\
-       \vspace{20pt} \\
-      %\hfil\\
-      {\bfseries\songti\zihao{3} 指导教师签名：} &
-      \ZJUunderline[120pt]{}
-     
-      %  如果使用电子签名请取消注释以下几行
-	  %      \ifpdf
-	  %	     \ZJUunderline[120pt]{\includegraphics[width=100pt,height=45pt]{./Signature/sign_ch.pdf}}
-	  %      \else
-	  %          \ZJUunderline[120pt]{\includegraphics[width=100pt,height=45pt]{./Signature/sign_ch.eps}}
-	  %      \fi
-      {\bfseries\songti\zihao{3}\textcolor{white}{。}}\\
- 		\end{tabular}
+	     {\bfseries\songti\zihao{3} 论文作者签名：} &
+	      \ZJUunderline[120pt]{}
+	      %  如果使用电子签名请取消注释以下几行
+		  %      \ifpdf
+		  %	      \ZJUunderline[120pt]{\includegraphics[width=100pt,height=45pt]{./Signature/sign_ch.pdf}}
+		  %      \else
+		  %          \ZJUunderline[120pt]{\includegraphics[width=100pt,height=45pt]{./Signature/sign_ch.eps}}
+		  %      \fi
+	      {\bfseries\songti\zihao{3}\textcolor{white}{。}}\\
+	       \vspace{16pt} \\
+	      %\hfil\\
+	      {\bfseries\songti\zihao{3} 指导教师签名：} &
+	      \ZJUunderline[120pt]{}
+	     
+	      %  如果使用电子签名请取消注释以下几行
+		  %      \ifpdf
+		  %	     \ZJUunderline[120pt]{\includegraphics[width=100pt,height=45pt]{./Signature/sign_ch.pdf}}
+		  %      \else
+		  %          \ZJUunderline[120pt]{\includegraphics[width=100pt,height=45pt]{./Signature/sign_ch.eps}}
+		  %      \fi
+	      {\bfseries\songti\zihao{3}\textcolor{white}{。}}\\
+    	\end{tabular}
             
       % 插入空白
       \vspace{15mm}
@@ -421,7 +420,7 @@ includehead, includefoot]{geometry}
 	\vfil
 	% 答辩时间
 	\begin{center}
-		{\songti\zihao{4}\hfill\ZJU@label@defenddate%
+		{\songti\zihao{4}\hfil\ZJU@label@defenddate%
 		\ZJUunderline[150pt]{\ZJU@value@defenddate}\hspace{3em}}
 	\end{center}
 
